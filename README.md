@@ -25,9 +25,7 @@ This project is a WebSocket-based broadcast server that allows multiple clients 
 ```bash
    npm install
 ```
-## Usage
-
-
+## JS Implementation Usage
 
 ### 1. Start the WebSocket server:
 ```bash
@@ -59,3 +57,16 @@ OR
 - `--port:` (optional). Specifies the port to connect to. Defaults to 3000.
 - `--username:` (optional). Sets the client's username. Defaults to Anon.
 ### 3. Send messages from the client terminals.
+
+## Python Implementation Usage
+### 1. Start the WebSocket server:
+```bash
+    python3 udpPingerServer.py
+```
+- Will run on port `12000` by default.
+
+### 2. Connect a client in another terminal:
+```bash
+    python3 udpPingerClient.py
+```
+- Will connect to the server on port `12000` by default.
