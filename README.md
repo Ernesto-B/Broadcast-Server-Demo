@@ -36,6 +36,7 @@ This project is a WebSocket-based broadcast server that allows multiple clients 
 - `--port` (optional): The port number to run the server on. Default is `3000`.
 <br>
 OR
+
 ```bash
     node mainWithUsername.js start --port <port_number>
 ```
@@ -51,6 +52,7 @@ OR
 - `--username:` Optional. Sets the client's username. Defaults to Anon.
 <br>
 OR
+
 ```bash
     node mainWithUsername.js connect --port <port_number> --username <username>
 ```
